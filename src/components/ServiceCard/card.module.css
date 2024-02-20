@@ -1,0 +1,10 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    aspect-ratio: 3 / 2.5;
+    border-radius: 15px;
+    background-color: white;
+}
