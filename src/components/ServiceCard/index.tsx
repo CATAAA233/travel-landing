@@ -8,7 +8,7 @@ interface Props {
 export default function ServiceCard (props: Props) {
   return (
     <div className={styles.Container}>
-      <Image src={props.iconSrc} alt={'Icon'} width={100} height={100} />
+      <Image className={styles.iconSrc} src={props.iconSrc} alt={'Icon'} width={100} height={100} />
       <h2>{props.title}</h2>
       <p>{props.description}</p>
     </div>

@@ -3,12 +3,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
-    aspect-ratio: 3 / 2.5;
+    width: 250px;
+    aspect-ratio: 3 / 1.5;
     border-radius: 15px;
     background-color: white;
+    padding: 30px 20px;
+
+}
+.Container > h2{
+    font-size: clamp(14px, calc(14px + 1vw), 20px);
+}
+.Container > p{
+    flex-grow: 1;
+    font-size: clamp(14px, calc(10px + 0.4vw), 20px);
+    text-align: center;
 }
 
+
 .iconSrc{
-    object-fit: cover;
+    width: auto;
+    height: 60px !important;
 }
