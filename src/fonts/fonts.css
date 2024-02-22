@@ -1,0 +1,36 @@
+@font-face {
+    font-family: MPLUS-Bl;
+    src: url('./MPLUS/MPLUS1-Black.ttf');
+}
+@font-face {
+    font-family: MPLUS-B;
+    src: url('./MPLUS/MPLUS1-Bold.ttf');
+}
+@font-face {
+    font-family: MPLUS-EB;
+    src: url('./MPLUS/MPLUS1-ExtraBold.ttf');
+}
+@font-face {
+    font-family: MPLUS-EL;
+    src: url('./MPLUS/MPLUS1-ExtraLight.ttf');
+}
+@font-face {
+    font-family: MPLUS-L;
+    src: url('./MPLUS/MPLUS1-Light.ttf');
+}
+@font-face {
+    font-family: MPLUS-M;
+    src: url('./MPLUS/MPLUS1-Medium.ttf');
+}
+@font-face {
+    font-family: MPLUS-R;
+    src: url('./MPLUS/MPLUS1-Regular.ttf');
+}
+@font-face {
+    font-family: MPLUS-SB;
+    src: url('./MPLUS/MPLUS1-SemiBold.ttf');
+}
+@font-face {
+    font-family: MPLUS-T;
+    src: url('./MPLUS/MPLUS1-Thin.ttf');
+}
