@@ -8,3 +8,7 @@
     border-radius: 15px;
     background-color: white;
 }
+
+.iconSrc{
+    object-fit: cover;
+}

@@ -13,12 +13,12 @@ export default function Home () {
         <button className={styles.Button}>Discover</button>
       </div>
       <section className={styles.ServicesCards__Section}>
-        {/* <div className={styles.ServicesCards__List}>
-          <ServiceCard iconSrc={'/icons/campfire.webp'} title={'Camping & Day Use'} description={'Return to your favorite spot or discover a new one that&aposs right for you'} />
-          <ServiceCard iconSrc={'/icons/tickets.webp'} title={'Tours & Tickets'} description={'Reserve tours and tickets to participate in events'} />
-          <ServiceCard iconSrc={'/icons/permit.webp'} title={'Permits'} description={'Obtain permits of access to high-demand locations'} />
-          <ServiceCard iconSrc={'/icons/fishing.webp'} title={'Recreation Activities'} description={'Return to your favorite spot or discover a new one that&aposs right for you'} />
-        </div> */}
+        <div className={styles.ServicesCards__List}>
+          <ServiceCard iconSrc={'/icons/campfire.svg'} title={'Camping & Day Use'} description={'Return to your favorite spot or discover a new one that&aposs right for you'} />
+          <ServiceCard iconSrc={'/icons/tickets.svg'} title={'Tours & Tickets'} description={'Reserve tours and tickets to participate in events'} />
+          <ServiceCard iconSrc={'/icons/permit.svg'} title={'Permits'} description={'Obtain permits of access to high-demand locations'} />
+          <ServiceCard iconSrc={'/icons/fishing.svg'} title={'Recreation Activities'} description={'Return to your favorite spot or discover a new one that&aposs right for you'} />
+        </div>
       </section>
     </main>
   )
