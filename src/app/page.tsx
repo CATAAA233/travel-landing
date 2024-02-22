@@ -20,6 +20,7 @@ export default function Home () {
           <ServiceCard iconSrc={'/icons/fishing.svg'} title={'Recreation Activities'} description={'Return to your favorite spot or discover a new one that&aposs right for you'} />
         </div>
       </section>
+      <section style={{height:400}}></section>
     </main>
   )
 }

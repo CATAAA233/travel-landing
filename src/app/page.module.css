@@ -12,6 +12,7 @@
   overflow: hidden;
   font-family: MPLUS-Bl;
   text-align: center;
+  min-height: 450px;
 }
 
 
@@ -33,7 +34,6 @@
   max-width: 50ch;
   font-family: MPLUS-R;
   z-index: 2;
-
 }
 
 .CoverImage {
@@ -58,8 +58,13 @@
 
 .ServicesCards__List {
   position: absolute;
-  top: -90px;
   display: flex;
-  column-gap: 30px;
+  justify-content: center;
+  margin: 0 30px;
+  top: -90px;
+  gap: 20px;
+
   z-index: 3;
+  flex-wrap: wrap;
+
 }
