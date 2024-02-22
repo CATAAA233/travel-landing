@@ -7,7 +7,7 @@ export default function Home () {
     <main className={styles.main}>
       <div className={styles.Coverpage}>
         <DarkLayer/>
-        <Image className={styles.CoverImage} src={'/images/coverpage.webp'} alt={'Coverpage Image'} fill />
+        <Image className={styles.CoverImage} src={'/images/coverpage.webp'} alt={'Coverpage Image'} fill priority/>
         <h1>Find Yourself Outside.</h1>
         <p>Book unique camping experiences on over 300,000 campsites, cabins, RV parks, public parks and more.</p>
         <button className={styles.Button}>Discover</button>
